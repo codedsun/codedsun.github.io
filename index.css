@@ -1,7 +1,3 @@
-.row{
-	min-height: 100%;
-	height: 100%;
-}
 
 
 #article{
@@ -19,11 +15,8 @@
 	border-right: thin solid green;
 	font-size: 14px;
 	font-color: #ffffff;
-
 	min-height: 100%;
     height: 100%;
-
-
 }
 
 
@@ -33,6 +26,13 @@
 }
 
 .right-content {
+	padding: 0px 0px;
+}
 
+#carousel{
+	background-size: contain;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;;
 }
 
