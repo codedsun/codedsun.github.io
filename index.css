@@ -1,20 +1,37 @@
+.row{
+	min-height: 100%;
+	height: 100%;
+}
+
+
 #article{
-	padding: : 10px 10px;
-    background-color: #ffffff;
+	padding: : 4px 5px;
+	background-color: #ffffff;
 	font-family: 'Muli', sans-serif;
+	min-height: 100%;
+	height: 100%;
+	
 }
 
 
 .sidebar-left{
-  background-color: #F8F8F8;
-  border-right: thin solid green;
-  font-size: 14px;
-  position: left;
-  font-color: #ffffff;
+	background-color: #F8F8F8;
+	border-right: thin solid green;
+	font-size: 14px;
+	font-color: #ffffff;
+
+	min-height: 100%;
+    height: 100%;
+
+
 }
 
 
 
 .nav-text{
 	color: black;
+}
+
+.right-content {
+
 }
