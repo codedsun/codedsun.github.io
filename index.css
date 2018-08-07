@@ -1,9 +1,19 @@
-.sidenavbar{
-	position: relative;
+#article{
+	padding: : 10px 10px;
+    background-color: #ffffff;
+	font-family: 'Muli', sans-serif;
+}
 
-	background: #ffffff;
-	overflow-x: hidden;
-	overflow-y: hidden;
-	height: 100%
-	width: 200px;
+
+.sidebar-left{
+  background-color: #F8F8F8;
+  border-right: thin solid green;
+  font-size: 14px;
+  position: left;
+}
+
+
+
+.nav-text{
+	color: black;
 }
