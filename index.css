@@ -1,0 +1,9 @@
+.sidenavbar{
+	position: relative;
+
+	background: #ffffff;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	height: 100%
+	width: 200px;
+}
