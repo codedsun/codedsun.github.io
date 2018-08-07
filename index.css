@@ -6,10 +6,14 @@
 	font-family: 'Muli', sans-serif;
 	min-height: 100%;
 	height: 100%;
-	overflow-x:hidden; 
+	overflow-y: auto;
 	
 }
 
+body{
+	overflow-x: hidden;
+	overflow-y: auto;
+}
 
 .sidebar-left{
 	background-color: #F8F8F8;
@@ -28,7 +32,13 @@
 
 .right-content {
 	padding-left: 0px;
-	min-height: 100%
+	min-height: 100%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	overflow-y: auto;
+	height: 100%;
+	width: 100%;
 
 }
 .carousel img {
@@ -37,6 +47,30 @@
 	min-width: 100%;
 	height: 738px;
 	max-width: none;
+}
+.page2{
+	background-color: white;
+	margin-left: 7%;
+	height: 100%;
+}
+
+.page2 .col1{
+	padding-top: 5%;
+}
+
+.page3{
+	background-color: #f7f7f7;
+	padding-left: 7%;
+	height: 100%;
+	padding-top: 2%;
+
+
+}
+
+#img-skill{
+	padding: 40px 40px;
+	width: 230px; 
+	height: 230px;
 }
 .carousel-content {
 	position: absolute;
@@ -49,7 +83,7 @@
 }
 
 @media only screen and (max-device-width: 768px){
-    .carousel{
-        display: none;
-    }
+	.carousel{
+		display: none;
+	}
 }
