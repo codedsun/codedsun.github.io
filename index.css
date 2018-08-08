@@ -66,12 +66,21 @@ body{
 
 
 }
+.page4{
+	height: 100%;
+	padding-left: 7%;
+	padding-top: 5%;
+	margin-right: 10%;
+	background-color: #ffffff;
+}
+
 
 #img-skill{
 	padding: 40px 40px;
 	width: 230px; 
 	height: 230px;
 }
+
 .carousel-content {
 	position: absolute;
 	bottom: 17%;
@@ -86,4 +95,5 @@ body{
 	.carousel{
 		display: none;
 	}
+
 }
